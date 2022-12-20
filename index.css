@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+body {
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-shadow: 0px 0px 20px #aaaaaa;
+
+}
+
+/* #author {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+} */
+
+main {
+    margin: 0em .5em 0em .5em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#time {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#img-name{
+    display: flex;
+    align-items: center;  
+    font-size: 1.5rem;  
+}
+
+#img-name > span {
+    margin-left: 10px;
+
+}
+
+#prices > p {
+    margin-bottom: .01em;
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+#img-name {
+    margin-bottom: 1em;
+}
+
+#weather-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#icon-degree {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#icon-degree > span, img {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#icon-degree > span {
+    font-size: 2rem;    
+}
+
+#location-name{
+    padding:0;
+    margin-top: 0;
+    text-align: right;
+    margin-right: -20px;
+    letter-spacing: .2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+}
+#location-name > h3 {
+    margin-top: -20px;
+    padding-right: .5em;
+}
